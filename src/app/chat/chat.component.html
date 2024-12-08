@@ -1,0 +1,26 @@
+<div class="chat-container">
+  <h3>News Agent</h3>
+  <div class="news-container">
+    <div *ngIf="aiResponse && aiResponse.length > 0">
+      <div *ngFor="let article of aiResponse" class="news">
+        <app-news-item
+          [title]="article.title"
+          [description]="article.description"
+          [url]="article.url"
+          [imageUrl]="article.urlToImage"
+          [publishedAt]="article.publishedAt">
+        </app-news-item>
+      </div>
+    </div>
+  </div>
+
+<div class="input-area">
+    <textarea
+      [(ngModel)]="userInput"
+      placeholder="Enter the news topic"
+      (keydown.enter)="getAiResponse()"
+      (keydown.enter)="resetTextArea()"
+      rows="4"
+      class="input-textarea"></textarea>
+  </div>
+</div>

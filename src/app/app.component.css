@@ -1,0 +1,156 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6c900;
+  padding: 10px 30px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-btn:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.slider-container {
+  margin-top: 20px;
+}
+
+.slider {
+  display: flex;
+  gap: 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.slider-item {
+  flex: 0 0 calc(33.33% - 20px);
+}
+
+mat-card {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+mat-card-actions button {
+  background-color: #f6c900;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+mat-card-actions button:hover {
+  background-color: #fff;
+  border: 1px solid #f6c900;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #f6c900;
+  font-size: 14px;
+  width: auto;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.body-wrap{
+  margin: 50px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #424242;
+  color: #fff;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+}
+
+.content-area {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+
+.col-4 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.left-sidebar {
+  box-sizing: border-box;
+  background-color: rgb(23, 23, 23);
+}
+
+.content-body{
+  padding: 10px;
+}

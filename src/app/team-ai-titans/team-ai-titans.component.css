@@ -1,0 +1,60 @@
+/* General Styles */
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .team-container {
+    padding: 20px;
+  }
+  
+  .team-content {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Team Member Section */
+  .team-member {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Back to Home Link */
+  .back-button {
+    margin-top: 30px;
+  }
+  
+  .back-button a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #f6c900;
+    font-weight: bold;
+  }
+  
+  .back-button a:hover {
+    text-decoration: underline;
+  }
+  

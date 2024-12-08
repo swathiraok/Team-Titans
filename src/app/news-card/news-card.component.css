@@ -1,0 +1,17 @@
+.news-card {
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  mat-card {
+    margin-bottom: 20px;
+  }
+  
+  mat-card-title {
+    font-weight: bold;
+  }
+  
+  mat-card-actions button {
+    width: 100%;
+  }
+  

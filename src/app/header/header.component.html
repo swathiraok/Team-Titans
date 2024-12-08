@@ -1,0 +1,10 @@
+<header class="header">
+  <div class="logo">
+    <h2 class="logo-title">Rich Rush</h2>
+  </div>
+  <nav class="nav-bar">
+    <button *ngFor="let category of categories" class="nav-btn">{{ category
+      }}</button>
+  </nav>
+  <input class="search-bar" placeholder="Search..." />
+</header>
