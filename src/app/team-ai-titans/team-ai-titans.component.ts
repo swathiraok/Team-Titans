@@ -7,7 +7,6 @@ import { AppRoutingModule } from '../app-routing.module';
   standalone: true,
   templateUrl: './team-ai-titans.component.html',
   styleUrl: './team-ai-titans.component.css',
-  imports: [HeaderComponent, AppRoutingModule]
 })
 
 export class TeamAiTitansComponent {

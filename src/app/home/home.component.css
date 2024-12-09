@@ -1,0 +1,18 @@
+.home-content {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .home-content .col-4 {
+    /* padding: 10px; */
+    flex: 1; /* Allow equal distribution of columns */
+    max-width: 33.33%; /* Prevent stacking */
+    box-sizing: border-box; 
+  }
+  
+  .home-content app-sentiment-analysis,
+  .home-content app-text-summary,
+  .home-content app-chat {
+    height: 100%; /* Ensure components expand to fit column */
+  }

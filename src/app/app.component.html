@@ -1,18 +1,35 @@
-<div class="container">
+<!-- <div class="container">
   <app-header></app-header>
   
   <div class="main-layout">
     <app-left-sidebar class="col-1 left-sidebar"></app-left-sidebar>
     <div class="content-body container">
       <div class="row col-11">
-        <!-- <app-home></app-home> -->
-        <app-sentiment-analysis class="col-4"></app-sentiment-analysis>
-        <app-text-summary class="col-4"></app-text-summary>
-        <app-chat class="col-4"></app-chat>
+        <router-outlet></router-outlet>
+       
       </div>
     </div>
   </div>
+</div> -->
+
+
+
+<div class="container-fluid">
+  <app-header></app-header>
+
+  <div class="row main-layout">
+    <!-- Sidebar -->
+    <div class="col-1 left-sidebar">
+      <app-left-sidebar></app-left-sidebar>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-11 content-body">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
+
 
 <!-- <div class="row col-11">
         <app-home></app-home>
@@ -21,3 +38,11 @@
       <div class="content-body container">
         <router-outlet></router-outlet>
       </div> -->
+
+
+
+
+       <!-- <app-home></app-home> -->
+        <!-- <app-sentiment-analysis class="col-4"></app-sentiment-analysis>
+        <app-text-summary class="col-4"></app-text-summary>
+        <app-chat class="col-4"></app-chat> -->

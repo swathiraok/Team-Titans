@@ -30,11 +30,32 @@ a {
     width: 41.6%;
 }
 
-.col-6{
+.col-6 {
     width: 50%;
 }
 
-h3{
+h3 {
     margin: 10px 0;
+    font-size: 20px;
 }
 
+
+.container-fluid {
+    padding: 0;
+    background-color: #424242;
+}
+
+.chat-container h3{
+    color: yellow;
+}
+
+.fab.fa-linkedin{
+    font-size: 40px;
+}
+
+/* .content-body {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    width: 100%;
+} */
