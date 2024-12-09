@@ -1,51 +1,63 @@
 .presentation-container {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #fff;
-  }
-  
-  .header-section {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .header-section h2 {
-    /* font-size: 2.5em; */
-    margin-bottom: 10px;
-  }
-  
-  .header-section h3 {
-    color: #555;
-  }
-  
-  .cta-button {
-    background-color: #0a66c2;
-    color:#fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px 0;
-  }
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+}
 
-  .cta-button a{
-   color: #fff;
-  }
-  
-  .cta-button:hover {
-    background-color: #004182;
-  }
-  
-  .features-grid {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .feature-item {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    flex: 1;
-  }
-  
+.header-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-section h2 {
+  /* font-size: 2.5em; */
+  margin-bottom: 10px;
+}
+
+.header-section h3 {
+  color: #555;
+}
+
+.cta-button {
+  background-color: #0a66c2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.cta-button a {
+  color: #fff;
+}
+
+.cta-button:hover {
+  background-color: #004182;
+}
+
+.features-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+h3 {
+  font-weight: bold;
+  color: #555;
+}
+
+section {
+  padding: 10px 0;
+}
+
+.final-cta-section .cta-button {
+  margin-right: 10px;
+}
