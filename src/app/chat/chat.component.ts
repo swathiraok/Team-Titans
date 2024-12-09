@@ -29,7 +29,7 @@ export class ChatComponent {
   getAiResponse() {
     this.newsService.fetchNews(this.userInput).subscribe(
       (response) => {
-        this.aiResponse = response;
+        this.aiResponse = response.articles;
       },
       (error) => {
         console.error('Error fetching data from API', error);

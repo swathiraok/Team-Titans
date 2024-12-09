@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class NewsService {
-  private apiUrl = 'http://64.227.132.161/api/fetch-news';
+  private apiUrl = 'http://64.227.132.161/api/fetch-news?interest=technology';
 
   constructor(private http: HttpClient) {}
 
