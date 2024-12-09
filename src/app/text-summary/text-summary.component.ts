@@ -30,15 +30,4 @@ export class TextSummaryComponent {
       summary: "Technology stocks experienced a decline due to increasing regulatory scrutiny."
     }
   ];
-
-  textSummaryData = [
-    {
-      originalText: "The quick brown fox jumps over the lazy dog.",
-      summary: "A fox jumps over a dog."
-    },
-    {
-      originalText: "Angular is a platform for building mobile and desktop web applications.",
-      summary: "Angular is a platform for web applications."
-    }
-  ];
 }
