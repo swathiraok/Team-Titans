@@ -1,2 +1,11 @@
-<h3>Sentiment Analysis</h3>
-<textarea placeholder="Enter text for sentiment analysis..." rows="4"></textarea>
+<div class="sentiment-analysis">
+    <h2>Sentiment Analysis</h2>
+    <div *ngFor="let data of sentimentData" class="sentiment-item">
+        <p><strong>Headline:</strong> {{ data.headline }}</p>
+        <p><strong>Published Date:</strong> {{ data.publishedDate }}</p>
+        <p><strong>Source:</strong> {{ data.source }}</p>
+        <p><strong>Sentiment:</strong> {{ data.sentiment }}</p>
+        <p><strong>Confidence Score:</strong> {{ data.confidenceScore | percent }}</p>
+        <hr>
+      </div>
+</div>

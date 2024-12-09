@@ -1,3 +1,7 @@
-
-<h3>Text Summary</h3>
-<textarea placeholder="Summarized text will appear here..." rows="4"></textarea>
+<div class="text-summary">
+    <h2>Financial Summary</h2>
+    <div *ngFor="let data of textSumamry" class="summary-item">
+        <p><strong>Summary:</strong> {{ data.summary }}</p>
+        <hr>
+      </div>
+  </div>

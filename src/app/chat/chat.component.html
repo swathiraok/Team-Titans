@@ -1,5 +1,5 @@
 <div class="chat-container">
-  <h3>News Agent</h3>
+  <h3>Financial Insights</h3>
   <div class="news-container">
     <div *ngIf="aiResponse && aiResponse.length > 0">
       <div *ngFor="let article of aiResponse" class="news">
@@ -20,7 +20,7 @@
       placeholder="Enter the news topic"
       (keydown.enter)="getAiResponse()"
       (keydown.enter)="resetTextArea()"
-      rows="4"
+      rows="2"
       class="input-textarea"></textarea>
   </div>
 </div>

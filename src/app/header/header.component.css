@@ -34,13 +34,22 @@
 }
 
 .logo-title {
-  font-size: 22px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-family: monospace;
+  color: #ffc0cb;
+  margin: 0;
+}
+
+p{
+  margin-top: 5px;
+    font-family: cursive;
+    color: yellow;
+    font-size: 13px;
 }
 
 .logo-title:hover {

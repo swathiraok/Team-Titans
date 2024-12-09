@@ -19,3 +19,16 @@
     border-color: #00796b;
   }
   
+  .sentiment-analysis {
+    background-color: yellow;
+    color: #000;
+    padding: 10px;
+  }
+  
+  .sentiment-item {
+    margin-bottom: 20px;
+  }
+  
+  .sentiment-item p {
+    margin: 5px 0;
+  }
