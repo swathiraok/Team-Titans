@@ -1,46 +1,74 @@
-  .text-summary-container {
-    background-color: #f7f7f7;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .summary-textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .scripts-section {
-    margin-top: 20px;
-    background-color: #212121;
-    color: white;
-    padding: 15px;
-    border-radius: 5px;
-  }
-  
-  .scripts-section h4 {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .scripts-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 10px;
-  }
-  
-  .script-item {
-    background-color: #c2185b;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-  }
-  
+/* Sentiment Analysis Container */
+.sentiment-analysis-output {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #212121;
+}
+
+/* Sentiment Grid */
+.sentiment-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Positive and Negative Columns */
+.positive-column, .negative-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Sentiment Item */
+.sentiment-item {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+/* Positive Sentiment Styling */
+.positive {
+  background-color: #28a745; /* Green */
+}
+
+.positive .icon {
+  color: white;
+}
+
+/* Negative Sentiment Styling */
+.negative {
+  background-color: #dc3545; /* Red */
+}
+
+.negative .icon {
+  color: white;
+}
+
+/* Icons */
+.icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.thumbs-up::before {
+  content: '\f164'; /* Font Awesome thumbs-up icon */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.thumbs-down::before {
+  content: '\f165'; /* Font Awesome thumbs-down icon */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
