@@ -7,9 +7,10 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   templateUrl: './text-summary.component.html',
   styleUrl: './text-summary.component.css',
-  imports: [FormsModule, CommonModule]
+  imports: [FormsModule, CommonModule],
 })
 export class TextSummaryComponent {
+
   summaryText: string = " "; 
 
   textSumamry = [
